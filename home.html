@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="style11.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>HOME</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+   <style>
+   body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+body
+{
+	background-color:#FDF2E9;
+}
+
+
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 280px;
+  perspective: 1000px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+
+        background-image: linear-gradient(to top left,#80304F,	#FFFACD,#BC8F8F,#FFE4E1);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------->
+
+.title {
+ 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+	background-color:#A65596 ;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+	box-shadow: 5px 10px 8px #888888;
+    margin-top:20px;
+	background-color:#A65596 ;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+ lex-direction: column;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+
+   </style>  
+ </head>
+<body>
+ 
+
+ 
+<!-- Navbar (sit on top) -->
+<div class="w3-top1"   style="box-shadow: 5px 10px 8px #888888;">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button"> <img src="ck.jpg" alt="" width="35" height="24"> Cake 🅽 More </a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right">
+	<a href="home.html"  class="w3-bar-item w3-button">Home</a>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+      <a href="shop.html"  class="w3-bar-item w3-button">Shop</a>
+      <a href="contact.html"  class="w3-bar-item w3-button">Contact</a>
+	   <a href="buy.html"  class="w3-bar-item w3-button">Buy Now</a>
+	  
+    </div>
+  </div>
+</div>
+
+
+
+ <div class=container-fluid">
+  <div class="row">
+  <div class="col-md  mx-auto" >
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="same1.jpg" class="img-fluid">
+ 
+  </div></div></div></div>
+
+
+
+
+
+<!-- Header -->
+
+
+ 
+ <script>
+  AOS.init();
+</script>
+
+
+
+
+<div class="container-fluid">
+
+  <div class="row mt-3" align="center" >
+    <div class="col-lg-7 ms-4" style="background-color:#FFEFD5;" data-aos="fade-right">
+    <b> <H1 style="color:#8B4513;" >Gourmet Cakes</H1></b>
+	 <p>Our Gourmet Cakes are the perfect match if you're looking to order cakes online. Conceptualized by Bunty Mahajan during her travels over the years
+	 , these recipes come in innovative flavour combinations and are baked fresh to order. Explore our range at orders
+	 .delcakes.in to gift an elegant birthday cake or anniversary cake, and have them delivered across Mumbai, Thane and Navi Mumbai.</p>
+	 <a class="btn btn-outline-danger btn-lg" href="#" role="button" align="right">Contact Us </a>
+    </div>
+    <div class="col-lg-4 ms-3" data-aos="fade-left">
+ <img src="cust.jpg" alt="Table Setting" width="400" height="410" style="box-shadow: 5px 10px 8px #888888;">
+    </div>
+  </div>
+  
+  
+   <div class="row mt-3" align="center" >
+       <div class="col-lg-4  ms-4" data-aos="fade-right">
+ <img src="cust1.jpg"  alt="Table Setting" width="400" height="410" style="box-shadow: 5px 10px 8px #888888;">
+    </div>
+    <div class="col-lg-7 ms-5" style="background-color:#FFEFD5;" data-aos="fade-left">
+    <b> <H1 style="color:#8B4513;"> Wedding Cakes</H1></b>
+	 <p>Our range of Wedding Cakes include the Luxury Collection & Premium Wedding Cakes designed by Bunty Mahajan. 
+	 The designs are unique, elaborate, stunning & a class apart from anything you have seen. Browse our vast collection 
+	 of designs here or work with Bunty Mahajan herself to create an exclusive centerpiece for your big day.</p>
+		 <a class="btn btn-outline-danger btn-lg" href="#" role="button" align="right">Contact Us </a> 
+    </div>
+  </div>
+
+  
+ <div class="row mt-3" align="center">
+    <div class="col-lg-7 ms-4" style="background-color:#FFEFD5;" data-aos="fade-right">
+    <b> <H1 style="color:#8B4513;"> Custom Cakes</H1></b>
+	 <p>Deliciae specialises in a wide array of 3D cakes designed & customised for every occasion. Choose from our range of designs for engagement cakes,
+	 kids birthday cakes, anniversary cakes, baby shower cakes, and theme cakes apt for birthdays and corporate events. Our core focus is on Design & Taste.
+	 Online ordering, payment and doorstep delivery make for a seamless experience.</p>
+	 	 <a class="btn btn-outline-danger btn-lg" href="#" role="button" align="right">Contact Us </a>
+    </div>
+    <div class="col-lg-4 ms-4" data-aos="fade-left">
+ <img src="cust2.jpg"  alt="Table Setting" width="400" height="390" style="box-shadow: 5px 10px 8px #888888;">
+    </div>
+  </div>   
+
+</div>
+
+
+
+
+<div class="mt-4" align="center" style="background-image: linear-gradient(to bottom,    #ffe6ff,  #FDF2E9);"><h1>Cake 🅽 More For You</h1></div>
+ <div class="container-fluid">
+  <div class="row ms-2 mt-3 mb-4">
+ <div class="col-md  mx-auto"  data-aos="zoom-in" >
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="sticker2.jpg" alt="Avatar" style="width:250px;height:280px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Home </h1> 
+      <p>A cakery or cake shop is a retail business specializing in producing and/or selling cakes; they may also sell cupcakes, muffins, sponges, 
+	  as well as other baked goods that fall under the title of a cake.
+</p> 
+  
+	  <a class="btn btn-light btn-lg" href="home.html" role="button">View More</a>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+ <div class="col-md  mx-auto"  data-aos="zoom-in" >
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="sticker1.png" alt="Avatar" style="width:250px;height:280px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>About Us </h1> 
+   <p>A cakery or cake shop is a retail business specializing in producing and/or selling cakes; they may also sell cupcakes, muffins, sponges, 
+	  as well as other baked goods that fall under the title of a cake.
+</p>
+<a class="btn btn-light btn-lg" href="about.html" role="button">View More</a> 
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+ <div class="col-md  mx-auto" data-aos="zoom-in" >
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="sticker3.png" alt="Avatar" style="width:250px;height:280px;">
+    </div>
+    <div class="flip-card-back">
+    <h1>Contact Us </h1> 
+   <p>A cakery or cake shop is a retail business specializing in producing and/or selling cakes; they may also sell cupcakes, muffins, sponges, 
+	  as well as other baked goods that fall under the title of a cake.
+</p>
+<a class="btn btn-light btn-lg" href="contact.html" role="button">View More</a> 
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+ <div class="col-md  mx-auto"  data-aos="zoom-in" >
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="sticker4.png" alt="Avatar" style="width:250px;height:280px;">
+    </div>
+    <div class="flip-card-back">
+<h1>Shop Now </h1> 
+   <p>A cakery or cake shop is a retail business specializing in producing and/or selling cakes; they may also sell cupcakes, muffins, sponges, 
+	  as well as other baked goods that fall under the title of a cake.
+</p>
+<a class="btn btn-light btn-lg" href="shop.html" role="button">View More</a> 
+    </div>
+  </div>
+</div>
+</div>
+</div></div>
+
+
+
+
+
+
+
+
+
+ 
+   
+   
+  <div class="container mb-4"> 
+  <div class="row"> 
+  <div class="col"> 
+
+ 
+ <section>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h3 class="mb-4">Our Expert Team</h3>
+    
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583336/AAA/4.jpg"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Maria Smantha</h5>
+      <h6 class="text-primary mb-3">Head of marketing</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+        tenetur.
+      </p>
+     
+   
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+       <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Lisa Cudrow</h5>
+      <h6 class="text-primary mb-3">CEO Of Shop</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
+        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
+      </p>
+
+    </div>
+    <div class="col-md-4 mb-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583319/AAA/3.jpg"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">John Smith</h5>
+      <h6 class="text-primary mb-3">Marketing Specialist</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et iusto odio
+        dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+      </p>
+      
+    </div>
+  </div>
+</section>
+ 
+ 
+	</div>
+	</div>
+		
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+	
+<footer class="footer pb-3">
+  <div class="footer__addr">
+    <h1 class="footer__logo">Cake 🅽 More </h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      5534 Somewhere In. The World 22193-10212<br>
+          
+      <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title" style="">ABOUT US</h2>
+
+      <ul class="nav__ul" >
+        <li>
+          <a href="https:www.gmail.com">happypaws@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="#">Contact</a>
+        </li>
+            
+        <li>
+          <a href="#">+91 9820392542 </a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">MEDIA LINKS</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="https:www.facebook.com">Facebook</a>
+        </li>
+        
+        <li>
+          <a href="https:www.linkedin.com">LinkedIn</a>
+        </li>
+        
+        <li>
+          <a href="https:www.instagram.com">Instagram</a>
+        </li>
+        
+        <li>
+          <a href="https:www.whatsapp.com">WhatsApp</a>
+        </li>
+      
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">LEGAL</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2022 Something. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+    </div>
+  </div>
+</footer>	
+	
+	
+	
+	
+	
+	
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
